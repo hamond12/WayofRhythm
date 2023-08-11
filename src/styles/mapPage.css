@@ -12,42 +12,38 @@
 
 .div-userLevel-explain {
   text-align: center;
-  font-family: "Nanum Gothic";
+  font-family: "NanumGothic";
   font-size: 3.75rem;
   font-weight: 600;
-  padding-top: 90px;
-  margin-bottom: 70px;
+  padding-top: 6%;
+  margin-bottom: 6%;
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 42px #0fa;
 }
 
 .user-level {
-  padding-top: 20px;
   padding-left: 0;
   margin: 0 auto;
-  width: 900px;
+  width: 58%;
   list-style: none;
 }
 
 .user-level li {
   width: 100%;
-  height: 60px;
-  padding-bottom: 45px;
+  padding-bottom: 5%;
   display: table;
-  line-height: 30px;
   color: white;
 }
 
 .user-level a {
   display: block;
-  width: 85px;
-  height: 18px;
-  padding: 20px;
+  width: 50%;
+  padding: 10%;
   border: 2px solid white;
   border-radius: 20px;
 
   font-weight: bold;
-  font-family: "Nanum Gothic";
+  font-family: "NanumGothic";
   font-size: 1.25rem;
   line-height: 1.25rem;
   text-align: center;
@@ -77,11 +73,11 @@
 }
 
 .user-level div {
-  font-family: "Nanum Gothic";
+  font-family: "NanumGothic";
   font-size: 1.25rem;
-  width: 720px;
-  height: 60px;
+  width: 80%;
+  height: 50%;
   display: table-cell;
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: 5%;
 }

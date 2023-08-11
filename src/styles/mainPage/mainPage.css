@@ -10,13 +10,6 @@
   background-position: bottom;
 }
 
-@media screen and (max-width: 1708px) {
-  .main-background {
-    background-image: url(/public/backgrounds/mainBackground.svg);
-    height: 1000px;
-  }
-}
-
 .line1 {
   position: absolute;
   top: 208%;

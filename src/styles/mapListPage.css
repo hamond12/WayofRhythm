@@ -14,7 +14,7 @@
   list-style: none;
   font-size: 60px;
   font-weight: 700;
-  font-family: "Nanum Gothic";
+  font-family: "NanumGothic";
   margin: 0;
   padding-left: 0;
 }
@@ -81,7 +81,7 @@ input#check-map {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  font-family: "Nanum Gothic";
+  font-family: "NanumGothic";
   font-size: 30px;
 }
 
