@@ -11,18 +11,6 @@
   display: flex;
 }
 
-@media screen and (min-width: 1708px) {
-  .guide-background {
-    height: 3430px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .guide-background {
-    height: 3760px;
-  }
-}
-
 .rabbits {
   padding-top: 13%;
   padding-left: 2%;

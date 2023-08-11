@@ -10,18 +10,6 @@
   background-position: bottom;
 }
 
-@media screen and (min-width: 1708px) {
-  .main-background {
-    height: 1000px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .main-background {
-    height: 1160px;
-  }
-}
-
 .line1 {
   position: absolute;
   top: 208%;
