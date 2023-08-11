@@ -11,6 +11,17 @@
   display: flex;
 }
 
+@media screen and (max-width: 1708px) {
+	.guide-background {
+    background-image: url(/public/backgrounds/guideBackground.svg);
+    height: 3400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+  }
+}
+
 .rabbits {
   padding-top: 13%;
   padding-left: 2%;

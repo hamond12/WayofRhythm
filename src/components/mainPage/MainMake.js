@@ -9,9 +9,9 @@ export default function MainMake(props) {
     <>
       <div className="compass">
         <Compass />
-      </div>
-      <div className="compass-in">
-        <CompassIn />
+        <div className="compass-in">
+          <CompassIn />
+        </div>
       </div>
 
       <p id="p-main2">제작의도</p>

@@ -1,6 +1,4 @@
 .main-header {
-  width: 100%;
-  height: 8%;
   background-color: #292637;
 }
 
@@ -10,6 +8,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+@media screen and (max-width: 1708px) {
+	.main-background {
+    background-image: url(/public/backgrounds/mainBackground.svg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
 }
 
 .line1 {
