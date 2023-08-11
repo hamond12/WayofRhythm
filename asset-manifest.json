@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WayofRhythm/static/css/main.8778596b.css",
+    "main.css": "/WayofRhythm/static/css/main.e1e5476f.css",
     "main.js": "/WayofRhythm/static/js/main.87f0b384.js",
     "static/js/787.0a694414.chunk.js": "/WayofRhythm/static/js/787.0a694414.chunk.js",
     "static/media/guideBackground.svg": "/WayofRhythm/static/media/guideBackground.0d093b496790d3b8be22.svg",
@@ -25,12 +25,12 @@
     "static/media/toContent.svg": "/WayofRhythm/static/media/toContent.c93151574e980cd8e1b421e0e48029c7.svg",
     "static/media/dataLine.svg": "/WayofRhythm/static/media/dataLine.a1cac109fa14c95638218a681dfd9554.svg",
     "static/media/line.svg": "/WayofRhythm/static/media/line.f485a6fe4851e8679c2d2e9e76d84e12.svg",
-    "main.8778596b.css.map": "/WayofRhythm/static/css/main.8778596b.css.map",
+    "main.e1e5476f.css.map": "/WayofRhythm/static/css/main.e1e5476f.css.map",
     "main.87f0b384.js.map": "/WayofRhythm/static/js/main.87f0b384.js.map",
     "787.0a694414.chunk.js.map": "/WayofRhythm/static/js/787.0a694414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8778596b.css",
+    "static/css/main.e1e5476f.css",
     "static/js/main.87f0b384.js"
   ]
 }
