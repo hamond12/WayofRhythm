@@ -8,14 +8,13 @@
 
 .show-level {
   text-align: center;
-  font-family: "Nanum Gothic";
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   color: white;
   list-style: none;
   font-size: 60px;
   font-weight: 700;
-  font-family: "Gafata";
+  font-family: "Nanum Gothic";
   margin: 0;
   padding-left: 0;
 }
