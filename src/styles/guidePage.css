@@ -11,6 +11,12 @@
   display: flex;
 }
 
+@media screen and (min-width: 1708px) {
+  .guide-background {
+    height: 3430x;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .guide-background {
     height: 3760px;
