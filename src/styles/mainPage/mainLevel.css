@@ -1,6 +1,6 @@
 #p-main3-1 {
   position: absolute;
-  top: 2050px;
+  top: 285%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
 
@@ -17,7 +17,7 @@
 
 #p-main3-2 {
   position: absolute;
-  top: 2180px;
+  top: 304%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
 
@@ -28,7 +28,7 @@
 
 .arrows {
   position: absolute;
-  top: 2430px;
+  top: 337%;
   left: 50%;
 
   transform: translate3d(-50%, -50%, 0);
@@ -36,7 +36,7 @@
 
 .official-icon-hidden {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 21%;
 
   animation: icon1-hidden ease-out 1s forwards;
@@ -55,7 +55,7 @@
 
 .official-icon {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 21%;
 
   animation: icon1 ease-in-out 1s forwards 0s;
@@ -74,7 +74,7 @@
 
 .crown-icon-hidden {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 50%;
   transform: translate3d(-50%, 0%, 0);
 
@@ -94,7 +94,7 @@
 
 .crown-icon {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 50%;
   transform: translate3d(-50%, 0%, 0);
 
@@ -115,7 +115,7 @@
 
 .custom-icon-hidden {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 64%;
 
   animation: icon3-hidden ease-in-out 1s forwards;
@@ -134,7 +134,7 @@
 
 .custom-icon {
   position: absolute;
-  top: 2300px;
+  top: 322%;
   left: 64%;
 
   animation: icon3 ease-in-out 1s forwards 1s;
@@ -156,5 +156,5 @@
   width: 100%;
   height: 60px;
   position: absolute;
-  top: 2670px;
+  top: 370%;
 }
