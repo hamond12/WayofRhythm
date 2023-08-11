@@ -11,9 +11,15 @@
 }
 
 @media screen and (max-width: 1708px) {
+<<<<<<< HEAD
 	.main-background {
     background-image: url(/public/backgrounds/mainBackground.svg);
     height: 1000px;
+=======
+  .main-background {
+    background-image: url(/public/backgrounds/mainBackground.svg);
+    height: 920px;
+>>>>>>> 37b59c44964128ef728178fd647ca550fe273380
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
