@@ -15,12 +15,11 @@
   font-size: 3.625rem;
   font-weight: bold;
   color: #36ad57;
-  margin: 20px 0px;
 }
 
 #p-main3-2 {
   position: absolute;
-  top: 304%;
+  top: 302%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
 
