@@ -37,34 +37,50 @@ td:nth-child(4) {
   width: 35%;
 }
 
-#td-youtube {
+#td-download {
   width: 15%;
 }
 
-#btn-workshop {
+#btn-download {
   color: white;
   border: none;
   width: 50px;
   height: 50px;
   font-size: 40px;
   line-height: 30px;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
-#icon-workshop {
+#icon-download {
   color: #1e3050;
-  text-align: center;
 }
 
-#btn-youtube {
-  background-color: red;
+.div-preview-none {
+  display: none;
+}
+
+.div-preview {
+  position: absolute;
+  margin-left: 1.45%;
+  margin-top: 1%;
+  font-size: 25px;
   color: white;
+  width: 30px;
+  height: 30px;
+}
+
+#btn-preview {
+  padding-bottom: 40px;
+  background: none;
   width: 80px;
-  height: 45px;
+  height: 30px;
   border: none;
   border-radius: 10px;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 50px;
+}
+
+#icon-preview {
+  color: red;
 }
 
 .off td {
