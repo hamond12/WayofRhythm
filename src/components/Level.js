@@ -16,7 +16,9 @@ export default function Level({ map }) {
     localStorage.setItem(mapKey, isDone.toString());
   }, [mapKey, isDone]);
 
-  const isDownload = map.download.includes("https://www.youtube.com");
+  const urlsToCheck = ["https://www.youtube.com", "https://drive.google.com/"];
+  const isDownload = urlsToCheck.some((url) => map.download.includes(url));
+
   const isPreviewEmpty = !map.preview.trim();
 
   return (

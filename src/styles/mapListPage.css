@@ -44,11 +44,12 @@ td:nth-child(4) {
 .tooltip {
   position: absolute;
   width: 17%;
-  padding: 0.3%;
+  padding: 0.5%;
   left: 44.5%;
   border-radius: 8px;
   background: #4d93fc;
   color: #fff;
+  font-family: "NanumGothic";
   font-size: 14px;
 }
 
@@ -87,12 +88,18 @@ td:nth-child(4) {
 
 .div-preview {
   position: absolute;
-  margin-left: 1.45%;
-  margin-top: 1%;
-  font-size: 25px;
+  margin-left: 20.5px;
+  margin-top: 9px;
+  font-size: 24px;
   color: white;
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .div-preview {
+    margin-top: 14px;
+  }
 }
 
 #btn-preview {

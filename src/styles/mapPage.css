@@ -80,3 +80,22 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+.link-guide {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.link-guide a {
+  color: white;
+  text-decoration: none;
+  font-family: "NanumGothic";
+}
+
+.link-guide a:hover {
+  color: #0fa;
+}
