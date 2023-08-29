@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import "../styles/guidePage.css";
 import { ReactComponent as Content1 } from "../images/guidePage/content1.svg";
 import { ReactComponent as Content2 } from "../images/guidePage/content2.svg";
-import { ReactComponent as Rabbits } from "../images/guidePage/rabbits.svg";
+import { ReactComponent as Content3 } from "../images/guidePage/content3.svg";
 import { ReactComponent as ToContent } from "../images/guidePage/toContent.svg";
 
 export default function GuidePage() {
@@ -13,15 +13,15 @@ export default function GuidePage() {
         <Header />
       </div>
       <div className="guide-background">
-        <div className="rabbits">
-          <Rabbits />
-        </div>
         <div>
-          <div className="content1" onClick={() => window.scrollTo(0, 850)}>
+          <div className="content1" onClick={() => window.scrollTo(0, 800)}>
             <Content1 />
           </div>
-          <div className="content2" onClick={() => window.scrollTo(0, 1670)}>
+          <div className="content2" onClick={() => window.scrollTo(0, 1530)}>
             <Content2 />
+          </div>
+          <div className="content3" onClick={() => window.scrollTo(0, 2560)}>
+            <Content3 />
           </div>
         </div>
       </div>
