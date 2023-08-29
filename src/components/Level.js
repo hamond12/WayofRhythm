@@ -10,6 +10,8 @@ export default function Level({ map }) {
     return savedIsDone === "true";
   });
 
+  const [isNameHovered, setIsNameHovered] = useState(false);
+
   useEffect(() => {
     localStorage.setItem(mapKey, isDone.toString());
   }, [mapKey, isDone]);
@@ -18,7 +20,11 @@ export default function Level({ map }) {
   const isPreviewEmpty = !map.preview.trim();
 
   return (
-    <tr className={isDone ? "off" : ""}>
+    <tr
+      className={isDone ? "off" : ""}
+      onMouseEnter={() => setIsNameHovered(true)}
+      onMouseLeave={() => setIsNameHovered(false)}
+    >
       <td id="td-check">
         <input
           type="checkbox"
@@ -29,7 +35,10 @@ export default function Level({ map }) {
       </td>
       <td id="td-level">{map.level} </td>
       <td>{map.artist} </td>
-      <td>{map.name}</td>
+      <td>
+        {map.name}
+        {isNameHovered && <p className="tooltip">{map.description}</p>}
+      </td>
       <td id="td-download">
         <button onClick={() => window.open(map.download)} id="btn-download">
           <FontAwesomeIcon
@@ -43,7 +52,9 @@ export default function Level({ map }) {
           onClick={() => map.preview && window.open(map.preview)}
           id="btn-preview"
         >
-          <div className={isPreviewEmpty ? "div-preview-none" : "div-preview"}>▶︎</div>
+          <div className={isPreviewEmpty ? "div-preview-none" : "div-preview"}>
+            ▶︎
+          </div>
           <FontAwesomeIcon
             icon={isPreviewEmpty ? faX : faYoutube} // 아이콘 변경
             id="icon-preview"
