@@ -2,9 +2,9 @@
   background-color: #c59494;
 }
 
-.guide-background {
-  background-image: url(/public/backgrounds/guideBackground.svg);
-  height: 3850px;
+.guide-background1 {
+  background-image: url(/public/backgrounds/guideBackground/guideBackground1.png);
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,19 +23,44 @@
   }
 }
 
+.rabbits {
+  padding-top: 11%;
+  padding-left: 2.5%;
+}
+
 .content1 {
-  padding-top: 56%;
-  padding-left: 95%;
+  padding-top: 50%;
+  padding-left: 18%;
 }
 
 .content2 {
   padding-top: 15%;
-  padding-left: 95%;
+  padding-left: 18%;
 }
 
 .content3 {
   padding-top: 15%;
-  padding-left: 95%;
+  padding-left: 18%;
+}
+
+.text-content {
+  font-family: "NanumGothic";
+  font-size: 80px;
+  padding-top: 10%;
+  padding-left: 17%;
+}
+
+.guide-background2 {
+  background-image: url(/public/backgrounds/guideBackground/guideBackground2.png);
+  height: 3100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contents {
+  padding-top: 8%;
+  padding-left: 18%;
 }
 
 .to-content {
