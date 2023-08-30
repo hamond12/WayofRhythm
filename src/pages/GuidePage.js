@@ -18,7 +18,7 @@ export default function GuidePage() {
         <div className="rabbits">
           <Rabbits />
         </div>
-        <div>
+        <div className="contents">
           <div className="content1" onClick={() => window.scrollTo(0, 740)}>
             <Content1 />
           </div>
@@ -32,7 +32,7 @@ export default function GuidePage() {
         <p className="text-content">CONTENTS</p>
       </div>
       <div className="guide-background2">
-        <div className="contents">
+        <div className="explains">
           <Contents />
         </div>
       </div>
