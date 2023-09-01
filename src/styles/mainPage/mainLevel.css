@@ -201,44 +201,44 @@
   }
 }
 
-@media screen and (max-width: 1553px) {
+@media screen and (min-width: 1552px) {
   @keyframes icon1-hidden {
     from {
-      left: 21.5%;
+      left: 23.5%;
       opacity: 1;
     }
     to {
-      left: 19.5%;
+      left: 21.5%;
       opacity: 0;
     }
   }
   @keyframes icon1 {
     from {
-      left: 19.5%;
+      left: 21.5%;
       opacity: 0;
     }
     to {
-      left: 21.5%;
+      left: 23.5%;
       opacity: 1;
     }
   }
   @keyframes icon3-hidden {
     from {
-      left: 63.5%;
+      left: 62.5%;
       opacity: 1;
     }
     to {
-      left: 61.5%;
+      left: 60.5%;
       opacity: 0;
     }
   }
   @keyframes icon3 {
     from {
-      left: 61.5%;
+      left: 60.5%;
       opacity: 0;
     }
     to {
-      left: 63.5%;
+      left: 62.5%;
       opacity: 1;
     }
   }

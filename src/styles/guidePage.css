@@ -52,16 +52,16 @@
   }
 }
 
-@media screen and (max-width: 1553px) {
+@media screen and (min-width: 1552px) {
   .rabbits {
-    padding-top: 10.5%;
+    padding-top: 9.5%;
   }
   .content1 {
-    padding-top: 47%;
+    padding-top: 48%;
   }
   .text-content {
-    padding-top: 10%;
-    padding-left: 13%;
+    padding-top: 9%;
+    padding-left: 19%;
   }
 }
 
