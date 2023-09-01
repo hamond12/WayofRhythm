@@ -71,29 +71,6 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
-  @keyframes icon1 {
-    from {
-      left: 17.5%;
-      opacity: 0;
-    }
-    to {
-      left: 19.5%;
-      opacity: 1;
-    }
-  }
-  @keyframes icon1-hidden {
-    from {
-      left: 19.5%;
-      opacity: 1;
-    }
-    to {
-      left: 17.5%;
-      opacity: 0;
-    }
-  }
-}
-
 .crown-icon-hidden {
   position: absolute;
   top: 322%;
@@ -174,7 +151,34 @@
   }
 }
 
+.whitespace {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  top: 370%;
+}
+
 @media screen and (max-width: 1440px) {
+  @keyframes icon1-hidden {
+    from {
+      left: 19.5%;
+      opacity: 1;
+    }
+    to {
+      left: 17.5%;
+      opacity: 0;
+    }
+  }
+  @keyframes icon1 {
+    from {
+      left: 17.5%;
+      opacity: 0;
+    }
+    to {
+      left: 19.5%;
+      opacity: 1;
+    }
+  }
   @keyframes icon3-hidden {
     from {
       left: 64.5%;
@@ -197,29 +201,44 @@
   }
 }
 
-.whitespace {
-  width: 100%;
-  height: 60px;
-  position: absolute;
-  top: 370%;
-}
-
-@media screen and (min-width: 1552px) {
-  .official-icon {
-    position: absolute;
-    top: 322%;
-    left: 24%;
-
-    animation: icon1 ease-in-out 1s forwards 0s;
+@media screen and (max-width: 1553px) {
+  @keyframes icon1-hidden {
+    from {
+      left: 21.5%;
+      opacity: 1;
+    }
+    to {
+      left: 19.5%;
+      opacity: 0;
+    }
   }
-
   @keyframes icon1 {
     from {
-      left: 19%;
+      left: 19.5%;
       opacity: 0;
     }
     to {
-      left: 24%;
+      left: 21.5%;
+      opacity: 1;
+    }
+  }
+  @keyframes icon3-hidden {
+    from {
+      left: 63.5%;
+      opacity: 1;
+    }
+    to {
+      left: 61.5%;
+      opacity: 0;
+    }
+  }
+  @keyframes icon3 {
+    from {
+      left: 61.5%;
+      opacity: 0;
+    }
+    to {
+      left: 63.5%;
       opacity: 1;
     }
   }

@@ -11,18 +11,6 @@
   display: flex;
 }
 
-@media screen and (min-width: 1552px) {
-  .guide-background {
-    height: 3400px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .guide-background {
-    height: 3760px;
-  }
-}
-
 .rabbits {
   padding-top: 11%;
   padding-left: 2.5%;
@@ -61,6 +49,19 @@
   .text-content {
     padding-top: 11%;
     padding-left: 11%;
+  }
+}
+
+@media screen and (max-width: 1553px) {
+  .rabbits {
+    padding-top: 10.5%;
+  }
+  .content1 {
+    padding-top: 47%;
+  }
+  .text-content {
+    padding-top: 10%;
+    padding-left: 13%;
   }
 }
 
