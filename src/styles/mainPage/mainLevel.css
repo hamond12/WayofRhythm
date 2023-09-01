@@ -1,6 +1,3 @@
-@media screen and (max-width: 1708px) {
-}
-
 #p-main3-1 {
   position: absolute;
   top: 285%;
@@ -71,6 +68,29 @@
   to {
     left: 21%;
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  @keyframes icon1 {
+    from {
+      left: 17.5%;
+      opacity: 0;
+    }
+    to {
+      left: 19.5%;
+      opacity: 1;
+    }
+  }
+  @keyframes icon1-hidden {
+    from {
+      left: 19.5%;
+      opacity: 1;
+    }
+    to {
+      left: 17.5%;
+      opacity: 0;
+    }
   }
 }
 
@@ -151,6 +171,29 @@
   to {
     left: 64%;
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  @keyframes icon3-hidden {
+    from {
+      left: 64.5%;
+      opacity: 1;
+    }
+    to {
+      left: 62.5%;
+      opacity: 0;
+    }
+  }
+  @keyframes icon3 {
+    from {
+      left: 62.5%;
+      opacity: 0;
+    }
+    to {
+      left: 64.5%;
+      opacity: 1;
+    }
   }
 }
 

@@ -25,6 +25,9 @@ export default function MapPage() {
             ))}
           </ul>
         </div>
+        <div className="link-guide">
+          <Link to="/guide">맵 다운로드 방법을 잘 모르겠다면?</Link>
+        </div>
       </div>
     </>
   );

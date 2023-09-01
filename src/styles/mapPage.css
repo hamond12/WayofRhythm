@@ -3,7 +3,7 @@
 }
 
 .mapBackground1 {
-  background-image: url(/public/backgrounds/mapBackground.svg);
+  background-image: url(/public/backgrounds/mapBackground.png);
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .user-level {
   padding-left: 0;
   margin: 0 auto;
-  width: 55%;
+  width: 63%;
   list-style: none;
 }
 
@@ -38,7 +38,7 @@
 .user-level a {
   display: block;
   width: 50%;
-  padding: 10%;
+  padding: 11%;
   border: 2px solid white;
   border-radius: 20px;
 
@@ -53,10 +53,10 @@
 }
 
 #a1 {
-  background-color: #4d93fc;
+  background-color: #ffd750;
 }
 #a2 {
-  background-color: #ffd700;
+  background-color: #4d93fc;
 }
 #a3 {
   background-color: #ff4a4a;
@@ -79,5 +79,23 @@
   height: 50%;
   display: table-cell;
   vertical-align: middle;
-  margin-left: 5%;
+}
+
+.link-guide {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.link-guide a {
+  color: white;
+  text-decoration: none;
+  font-family: "NanumGothic";
+}
+
+.link-guide a:hover {
+  color: #0fa;
 }

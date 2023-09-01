@@ -39,7 +39,7 @@
 .p-make {
   position: absolute;
   top: 230%;
-  left: 42.2%;
+  left: 42.5%;
 
   font-family: "NanumGothic";
   font-weight: lighter;
@@ -55,14 +55,14 @@
   }
   to {
     opacity: 1;
-    left: 43%;
+    left: 42.5%;
   }
 }
 
 .p-make-hidden {
   position: absolute;
   top: 230%;
-  left: 41.5%;
+  left: 42.5%;
   opacity: 0;
 
   font-size: 28px;
@@ -73,7 +73,7 @@
 @keyframes p-make-hidden {
   from {
     opacity: 1;
-    left: 41.5%;
+    left: 42.5%;
   }
   to {
     opacity: 0;

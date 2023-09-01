@@ -30,8 +30,8 @@ export default function MapListPage() {
               <td>Level</td>
               <td>Artist</td>
               <td>Song</td>
-              <td>Workshop</td>
-              <td>Youtube</td>
+              <td>Download</td>
+              <td>Preview</td>
             </tr>
             {mapList.map((map) => (
               <Level map={map} key={map.id}></Level>

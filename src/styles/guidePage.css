@@ -2,9 +2,9 @@
   background-color: #c59494;
 }
 
-.guide-background {
-  background-image: url(/public/backgrounds/guideBackground.svg);
-  height: 3300px;
+.guide-background1 {
+  background-image: url(/public/backgrounds/guideBackground/guideBackground1.png);
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,18 +24,57 @@
 }
 
 .rabbits {
-  padding-top: 13%;
-  padding-left: 2%;
+  padding-top: 11%;
+  padding-left: 2.5%;
+}
+
+.contents {
+  padding-left: 3%;
 }
 
 .content1 {
-  padding-top: 62%;
-  padding-left: 20%;
+  padding-top: 50%;
 }
 
 .content2 {
-  padding-top: 24%;
-  padding-left: 20%;
+  padding-top: 15%;
+}
+
+.content3 {
+  padding-top: 15%;
+}
+
+.text-content {
+  font-family: "NanumGothic";
+  font-size: 80px;
+  padding-top: 10%;
+  padding-left: 17%;
+}
+
+@media screen and (max-width: 1440px) {
+  .rabbits {
+    padding-top: 11.5%;
+  }
+  .content1 {
+    padding-top: 48%;
+  }
+  .text-content {
+    padding-top: 11%;
+    padding-left: 11%;
+  }
+}
+
+.guide-background2 {
+  background-image: url(/public/backgrounds/guideBackground/guideBackground2.png);
+  height: 3100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.explains {
+  padding-top: 8%;
+  padding-left: 18%;
 }
 
 .to-content {
