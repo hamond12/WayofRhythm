@@ -160,3 +160,24 @@
   position: absolute;
   top: 370%;
 }
+
+@media screen and (min-width: 1552px) {
+  .official-icon {
+    position: absolute;
+    top: 322%;
+    left: 24%;
+
+    animation: icon1 ease-in-out 1s forwards 0s;
+  }
+
+  @keyframes icon1 {
+    from {
+      left: 19%;
+      opacity: 0;
+    }
+    to {
+      left: 24%;
+      opacity: 1;
+    }
+  }
+}
