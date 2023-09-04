@@ -11,36 +11,25 @@
   display: flex;
 }
 
-@media screen and (min-width: 1552px) {
-  .guide-background {
-    height: 3400px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .guide-background {
-    height: 3760px;
-  }
-}
-
 .rabbits {
   padding-top: 11%;
   padding-left: 2.5%;
 }
 
+.contents {
+  padding-left: 3%;
+}
+
 .content1 {
   padding-top: 50%;
-  padding-left: 18%;
 }
 
 .content2 {
   padding-top: 15%;
-  padding-left: 18%;
 }
 
 .content3 {
   padding-top: 15%;
-  padding-left: 18%;
 }
 
 .text-content {
@@ -48,6 +37,32 @@
   font-size: 80px;
   padding-top: 10%;
   padding-left: 17%;
+}
+
+@media screen and (max-width: 1440px) {
+  .rabbits {
+    padding-top: 11.5%;
+  }
+  .content1 {
+    padding-top: 48%;
+  }
+  .text-content {
+    padding-top: 11%;
+    padding-left: 11%;
+  }
+}
+
+@media screen and (min-width: 1552px) {
+  .rabbits {
+    padding-top: 9.5%;
+  }
+  .content1 {
+    padding-top: 48%;
+  }
+  .text-content {
+    padding-top: 9%;
+    padding-left: 19%;
+  }
 }
 
 .guide-background2 {
@@ -58,7 +73,7 @@
   background-position: center;
 }
 
-.contents {
+.explains {
   padding-top: 8%;
   padding-left: 18%;
 }
