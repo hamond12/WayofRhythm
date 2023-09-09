@@ -39,6 +39,25 @@
   padding-left: 17%;
 }
 
+.guide-background2 {
+  background-image: url(/public/backgrounds/guideBackground/guideBackground2.png);
+  height: 3100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.explains {
+  padding-top: 8%;
+  padding-left: 18%;
+}
+
+.to-content {
+  position: fixed;
+  bottom: 5%;
+  right: 4%;
+}
+
 @media screen and (max-width: 1440px) {
   .rabbits {
     padding-top: 11.5%;
@@ -65,21 +84,22 @@
   }
 }
 
-.guide-background2 {
-  background-image: url(/public/backgrounds/guideBackground/guideBackground2.png);
-  height: 3100px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.explains {
-  padding-top: 8%;
-  padding-left: 18%;
-}
-
-.to-content {
-  position: fixed;
-  bottom: 5%;
-  right: 4%;
+@media screen and (min-width: 1920px) {
+  .guide-background1 {
+    height: 700px;
+  }
+  .rabbits {
+    padding-top: 11%;
+    padding-left: 6%;
+  }
+  .content1 {
+    padding-top: 60%;
+  }
+  .text-content {
+    padding-top: 10.5%;
+    padding-left: 20.2%;
+  }
+  .explains {
+    padding-left: 23%;
+  }
 }

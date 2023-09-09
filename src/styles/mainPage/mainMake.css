@@ -83,3 +83,32 @@
     left: 23%;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .compass {
+    left: 26%;
+  }
+  .p-make {
+    left: 44%;
+  }
+  @keyframes p-make {
+    from {
+      opacity: 0;
+      left: 52%;
+    }
+    to {
+      opacity: 1;
+      left: 44%;
+    }
+  }
+  @keyframes p-make-hidden {
+    from {
+      opacity: 1;
+      left: 44%;
+    }
+    to {
+      opacity: 0;
+      left: 52%;
+    }
+  }
+}

@@ -243,3 +243,61 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .arrows {
+    top: 332%;
+  }
+  .official-icon {
+    top: 320%;
+  }
+  .crown-icon {
+    top: 320%;
+  }
+  .custom-icon {
+    top: 320%;
+  }
+  @keyframes icon1-hidden {
+    from {
+      left: 26.8%;
+      opacity: 1;
+    }
+    to {
+      left: 24.8%;
+      opacity: 0;
+    }
+  }
+  @keyframes icon1 {
+    from {
+      left: 24.8%;
+      opacity: 0;
+    }
+    to {
+      left: 26.8%;
+      opacity: 1;
+    }
+  }
+  @keyframes icon3-hidden {
+    from {
+      left: 61%;
+      opacity: 1;
+    }
+    to {
+      left: 59.5%;
+      opacity: 0;
+    }
+  }
+  @keyframes icon3 {
+    from {
+      left: 59.5%;
+      opacity: 0;
+    }
+    to {
+      left: 61%;
+      opacity: 1;
+    }
+  }
+  .whitespace {
+    height: 30px;
+  }
+}

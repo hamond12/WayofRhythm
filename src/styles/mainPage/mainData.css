@@ -126,3 +126,29 @@
     }
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .btn-data1 {
+    left: 28%;
+  }
+  @keyframes data1-hidden {
+    from {
+      left: 28%;
+      opacity: 1;
+    }
+    to {
+      left: 19%;
+      opacity: 0;
+    }
+  }
+  @keyframes data1 {
+    from {
+      left: 19%;
+      opacity: 0;
+    }
+    to {
+      left: 28%;
+      opacity: 1;
+    }
+  }
+}

@@ -99,3 +99,17 @@
 .link-guide a:hover {
   color: #0fa;
 }
+
+@media screen and (min-width: 1920px) {
+  .user-level {
+    width: 53%;
+  }
+  .user-level div {
+    width: 75%;
+  }
+  .user-level a {
+    width: 40%;
+    padding: 9%;
+    margin-left: 10%;
+  }
+}
