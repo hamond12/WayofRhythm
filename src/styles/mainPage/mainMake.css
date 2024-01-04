@@ -2,15 +2,15 @@
   position: absolute;
   top: 223%;
   left: 20%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .compass-in {
   position: absolute;
-  top: 28%; /* 부모 요소의 세로 중앙에 위치 */
-  left: 17%; /* 부모 요소의 가로 중앙에 위치 */
+  top: 28%;
+  left: 17%; 
   transition: all ease 3s;
-  z-index: 2;
+  z-index: 0;
 }
 
 .compass-in:hover {

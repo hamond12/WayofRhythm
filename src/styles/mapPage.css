@@ -1,5 +1,8 @@
 .map-header {
   background-color: #1b1b1b;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 .mapBackground1 {
@@ -15,7 +18,7 @@
   font-family: "NanumGothic";
   font-size: 3.75rem;
   font-weight: 600;
-  padding-top: 6%;
+  padding-top: 10%;
   margin-bottom: 6%;
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 42px #0fa;

@@ -14,6 +14,7 @@ export default function GuidePage() {
       <div className="guide-header">
         <Header />
       </div>
+      <div className="box"/>
       <div className="guide-background1">
         <div className="rabbits">
           <Rabbits />

@@ -1,5 +1,12 @@
 .guide-header {
   background-color: #c59494;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.box{
+  height: 80px;
 }
 
 .guide-background1 {

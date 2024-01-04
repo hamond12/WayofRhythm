@@ -1,5 +1,8 @@
 .main-header {
   background-color: #292637;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 .main-background {
